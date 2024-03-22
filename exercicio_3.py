@@ -55,3 +55,15 @@ Resposta:
 Não
 
 """
+
+cromossomo = input ("Digite o cromossomo:")
+posicao = int(input ("Digite a posição:"))
+genoma = input ("Digite o genoma de referência:")
+                
+condicao1 = cromossomo == str("chr17") and posicao > 41196312 and posicao < 41277500 and genoma == str ("hg19")
+condicao2 = cromossomo == str("chr17") and posicao > 43044295 and posicao < 43125483 and genoma == str ("hg38")
+
+if condicao1 or condicao2:
+    print ("Resposta: Sim ")
+else:
+    print ("Resposta: Não")
