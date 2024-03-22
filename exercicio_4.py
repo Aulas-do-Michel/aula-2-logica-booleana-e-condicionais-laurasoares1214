@@ -59,11 +59,11 @@ if moeda == "Estados Unidos":
     valor = float(input("Quantos reais você quer converter?"))
     valor_em_dolares = valor /5 
     print (f"Resposta: {valor_em_dolares:.2f} USD")
-elif moeda == str("Argentina"):
+elif moeda == "Argentina":
     valor = float(input("Quantos reais você quer converter?"))
     valor_em_pesosargentinos =  valor *180
     print (f"Resposta: {valor_em_pesosargentinos:.2f} ARS")
-elif moeda == str("Japão"): 
+elif moeda == "Japão": 
     valor = float(input("Quantos reais você quer converter?"))
     valor_em_yenes = valor *30
     print (f"Resposta {valor_em_yenes:.2f} JPY")
