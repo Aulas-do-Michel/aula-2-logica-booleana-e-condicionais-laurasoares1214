@@ -83,11 +83,11 @@ Digite a frequencia alélica (em porcentagem): 100
 Resposta: Não é relevante.
 """
 print ("Para descobrir se essa variante é relevante digite as seguintes informações")
-frequencia_pop = int (input("Digite a frequencia populacional (em porcentagem):"))
+frequencia_pop = float (input("Digite a frequencia populacional (em porcentagem):"))
 gene_da_variante = input ("Digite o gene:")
 impacto_variante = input ("Digite a Impacto (ALTO ou BAIXO):")
-reads_variante= int (input("Digite os reads:"))
-frequencia_var= int (input("Digite a frequencia alélica (em porcentagem):"))
+reads_variante= float (input("Digite os reads:"))
+frequencia_var= float (input("Digite a frequencia alélica (em porcentagem):"))
 
 artefato = reads_variante <10 or frequencia_var < 20
 condicao1= not artefato and impacto_variante =="ALTO"
